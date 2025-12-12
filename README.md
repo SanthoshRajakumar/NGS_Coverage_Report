@@ -8,10 +8,17 @@ The tool highlights **genes and exons with sub-optimal coverage that have less t
 
 
 ##  How to Run
-
 ### 1. Install Dependencies
 Ensure you have Python 3.8+ installed.  
-and install required libraries
+tkinter
+pandas
+pathlib 
+matplotlib
+re
+reportlab
+os
+platform
+subprocess
 ### Running the code
 When you run the code , it will ask to selected the sambamba file, once you choose , you will get the NGS coverage report of the file as a PDF.
 
