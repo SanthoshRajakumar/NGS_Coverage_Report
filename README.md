@@ -6,6 +6,15 @@ It is designed for diagnostic labs performing targeted sequencing panels,for con
 
 The tool highlights **genes and exons with sub-optimal coverage that have less than 100% coverage at 30x**, which is critical for ensuring reliable variant detection in clinical genomics.
 
+
+##  How to Run
+
+### 1. Install Dependencies
+Ensure you have Python 3.8+ installed.  
+and install required libraries
+### Running the code
+When you run the code , it will ask to selected the sambamba file, once you choose , you will get the NGS coverage report of the file as a PDF.
+
 ---
 
 ## Clinical Context
@@ -61,16 +70,6 @@ Exon-level report → pinpoints exact failing exons for re-sequencing or validat
   3. Exon-level failing regions
   4. Coverage plot
 
----
-
-##  How to Run
-
-### 1. Install Dependencies
-Ensure you have Python 3.8+ installed.  
-and install required libraries
-### Running the code
-When you run the code , it will ask to selected the sambamba file, once you choose , you will get the NGS coverage report of the file as a PDF.
 
 
-```bash
-pip install pandas matplotlib reportlab
+
